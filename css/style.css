@@ -145,7 +145,7 @@ header{
 }
 
 .manual-btn:hover{
-    background-color: #ffffff;
+    background-color: rgba(0,0,0,0.6);
 }
 
 #radio1:checked ~ .first{
