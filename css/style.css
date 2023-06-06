@@ -135,3 +135,11 @@ header{
 #radio2:checked ~ .first{
     margin-left: -25%;
 }
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
