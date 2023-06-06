@@ -185,3 +185,42 @@ section.caixas{
     text-align: center;
     color: white;
 }
+
+section.caixas h3{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.caixas-single{
+    text-align: left;
+}
+
+.caixas-container{
+    margin-top: 40px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.caixas-single{
+    width: 100%;
+    margin: 0 10px;
+}
+
+.caixas-single h3{
+    text-align: center;
+    background-color: #ec4141;
+    border: 1px solid white;
+    padding: 8px;
+}
+
+.caixas-single p{
+    background-color: white;
+    padding: 8px;
+    font-size: 15px;
+    color: black;
+}
+
+.caixas-single img{
+    width: 100%;
+    display: block;
+}
