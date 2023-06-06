@@ -72,3 +72,51 @@ header{
     z-index: 1;
     top: 280px;
 }
+
+.slider{
+    margin-top: -80px;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.slides{
+    width: 400%;
+    height:80vh;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+
+.slide img{
+    width: 100%;
+    height: 80vh;
+}
+
+.manual-navigation{
+    position: absolute;
+    z-index: 2;
+    width: 100vw;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor:pointer ;
+    transition: 1s;
+}
+
+
+
