@@ -23,7 +23,7 @@ header{
 }
 
 .logo{
-    color: #ec4141;
+    color: #fffafa;
     margin-top: 27px;
 }
 
@@ -33,7 +33,7 @@ header{
 }
 
 .menu-container a.active-menu{
-    background-color: #ec4141;
+    background-color: #4F4F4F;
 }
 
 .menu-container a{
@@ -47,11 +47,11 @@ header{
 }
 
 .menu-container a:hover{
-    color: #ec4141;
+    color: #4F4F4F;
 }
 
 .text-chamada{
-    color: #ff0000;
+    color: white;
     margin-top: 70px;
     position: static;
     bottom: 50px;
@@ -132,7 +132,7 @@ header{
 }
 
 .manual-btn{
-    border: 2px solid #ec4141;
+    border: 2px solid #4F4F4F;
     padding: 5px;
     border-radius: 10px;
     cursor:pointer ;
@@ -200,7 +200,7 @@ header{
 }
 
 section.caixas{
-    background-color: #ec4141;
+    background-color: #4F4F4F;
     padding: 20px 0;
     text-align: center;
     color: white;
@@ -228,7 +228,7 @@ section.caixas h3{
 
 .caixas-single h3{
     text-align: center;
-    background-color: #ec4141;
+    background-color: #4F4F4F;
     border: 1px solid white;
     padding: 8px;
 }
