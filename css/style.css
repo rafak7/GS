@@ -52,6 +52,7 @@ header{
 
 .text-chamada{
     color: #ec4141;
+    margin-top: 70px;
     position: static;
     bottom: 50px;
     left: 100px;
@@ -125,4 +126,12 @@ header{
 
 .manual-btn:hover{
     background-color: #ec4141;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
 }
