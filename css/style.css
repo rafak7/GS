@@ -66,12 +66,20 @@ header{
     top: 180px;
 }
 
+.text-chamada--parcial h1{
+    top: 70px;
+}
+
 .text-chamada h3{
     padding: 40px;
     font-size: 20px;
     position: absolute;
     z-index: 1;
     top: 280px;
+}
+
+.text-chamada--parcial h3{
+    top: 170px;
 }
 
 .slider{
@@ -81,10 +89,18 @@ header{
     overflow: hidden;
 }
 
+.slider--parcial{
+    height: 40vh;
+}
+
 .slides{
     width: 400%;
     height:80vh;
     display: flex;
+}
+
+.slides--parcial{
+    height: 40vh;
 }
 
 .slides input{
@@ -100,6 +116,10 @@ header{
 .slide img{
     width: 100%;
     height: 80vh;
+}
+
+.slide--parcial img{
+    height: 40vh;
 }
 
 .manual-navigation{
