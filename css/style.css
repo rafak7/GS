@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    max-width: 1100px;
+    padding:0 2%;
+    display: flex;
+    margin:0 auto;
+}
+
+header{
+    background-color: rgba(0,0,0,0.6);
+    height: 80px;
+    width: 100vw;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    color: #ec4141;
+    margin-top: 27px;
+}
+
+.menu-container{
+    width: 100%;
+    justify-content: space-between;
+}
