@@ -45,3 +45,8 @@ header{
     line-height: 80px;
     transition: 0.8s;
 }
+
+.menu-container a:hover{
+    color: #ec4141;
+}
+
