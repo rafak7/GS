@@ -51,7 +51,7 @@ header{
 }
 
 .text-chamada{
-    color: #ec4141;
+    color: #ff0000;
     margin-top: 70px;
     position: static;
     bottom: 50px;
@@ -112,7 +112,7 @@ header{
 }
 
 .manual-btn{
-    border: 2px solid #fff;
+    border: 2px solid #ec4141;
     padding: 5px;
     border-radius: 10px;
     cursor:pointer ;
@@ -125,7 +125,7 @@ header{
 }
 
 .manual-btn:hover{
-    background-color: #ec4141;
+    background-color: #ffffff;
 }
 
 #radio1:checked ~ .first{
@@ -142,4 +142,39 @@ header{
 
 #radio4:checked ~ .first{
     margin-left: -75%;
+}
+
+.navigation-auto div{
+    border: 2px solid #ec4141;
+    padding: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #ec4141;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #ec4141;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #ec4141;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #ec4141;
 }
