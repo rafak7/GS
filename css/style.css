@@ -178,3 +178,10 @@ header{
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background-color: #ec4141;
 }
+
+section.caixas{
+    background-color: #ec4141;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
