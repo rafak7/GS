@@ -50,3 +50,25 @@ header{
     color: #ec4141;
 }
 
+.text-chamada{
+    color: #ec4141;
+    position: static;
+    bottom: 50px;
+    left: 100px;
+}
+
+.text-chamada h1{
+    padding: 40px;
+    font-size: 60px;
+    position: absolute;
+    z-index: 1;
+    top: 180px;
+}
+
+.text-chamada h3{
+    padding: 40px;
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 280px;
+}
