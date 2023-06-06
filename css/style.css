@@ -118,5 +118,8 @@ header{
     transition: 1s;
 }
 
+.manual-btn:not(:last-child){
+    margin-right: 40px;
 
+}
 
