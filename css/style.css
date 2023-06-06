@@ -31,3 +31,17 @@ header{
     width: 100%;
     justify-content: space-between;
 }
+
+.menu-container a.active-menu{
+    background-color: #ec4141;
+}
+
+.menu-container a{
+    color: white;
+    display: inline-block;
+    margin:0 10px;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 80px;
+    transition: 0.8s;
+}
