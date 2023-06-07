@@ -23,7 +23,7 @@ header{
 }
 
 .logo{
-    color: #ec4141;
+    color: #fffafa;
     margin-top: 27px;
 }
 
@@ -33,7 +33,8 @@ header{
 }
 
 .menu-container a.active-menu{
-    background-color: #ec4141;
+    background-color: rgba(0,0,0,0.3);
+    font-weight: bold;
 }
 
 .menu-container a{
@@ -47,11 +48,11 @@ header{
 }
 
 .menu-container a:hover{
-    color: #ec4141;
+    color: #4F4F4F;
 }
 
 .text-chamada{
-    color: #ff0000;
+    color: white;
     margin-top: 70px;
     position: static;
     bottom: 50px;
@@ -133,7 +134,7 @@ header{
 }
 
 .manual-btn{
-    border: 2px solid #ec4141;
+    border: 2px solid #4F4F4F;
     padding: 5px;
     border-radius: 10px;
     cursor:pointer ;
@@ -146,7 +147,7 @@ header{
 }
 
 .manual-btn:hover{
-    background-color: #ffffff;
+    background-color: rgba(0,0,0,0.6);
 }
 
 #radio1:checked ~ .first{
@@ -201,7 +202,7 @@ header{
 }
 
 section.caixas{
-    background-color: #ec4141;
+    background-color: #4F4F4F;
     padding: 20px 0;
     text-align: center;
     color: white;
@@ -214,22 +215,27 @@ section.caixas h3{
 
 .caixas-single{
     text-align: left;
+    display: block;
+    background-color: white;
+    height: 500px;
 }
 
 .caixas-container{
     margin-top: 40px;
     width: 100%;
     justify-content: space-around;
+    
 }
 
 .caixas-single{
     width: 100%;
     margin: 0 10px;
+    
 }
 
 .caixas-single h3{
     text-align: center;
-    background-color: #ec4141;
+    background-color: #4F4F4F;
     border: 1px solid white;
     padding: 8px;
 }
@@ -244,6 +250,9 @@ section.caixas h3{
 .caixas-single img{
     width: 100%;
     display: block;
+    height: 180px;
+}
+
 }
 
 footer{
@@ -251,5 +260,6 @@ footer{
     padding:5;
     text-align: center;
 }
+
 
 
