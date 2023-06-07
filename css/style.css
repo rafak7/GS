@@ -52,7 +52,7 @@ header{
 }
 
 .text-chamada{
-    color: white;
+    color: rgb(87, 11, 11);
     margin-top: 70px;
     position: static;
     bottom: 50px;
@@ -253,7 +253,6 @@ section.caixas h3{
     height: 180px;
 }
 
-}
 
 footer{
     margin:10;
